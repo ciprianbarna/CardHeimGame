@@ -1,0 +1,35 @@
+1- Interfaz ultra sencilla (prototipo). 
+	El prototipo lo propongo hacer en Java en PC con swing debido a que es lo que controlamos todos y sería más rápido. 
+	Luego pasariamos a Android. 
+2- Tipos de cartas: 
+	1- Armas
+	2- Defensa 
+	3- Objeto 
+	4- Hechizos 
+	5- Monstruos??? 
+3- 2 mazos. El mazo de robar cartas y el mazo de descartes. 
+4- 2 jugadores. Con posibilidad de aumento en el futuro. 
+5- El mazo ha de ser siempre aleatorio. 
+6- Al comienzo de la partida se decide el primer jugador de forma aleatoria. El segundo jugador empieza con 3 cartas mientras que el primero empieza con 2. 
+7- En la mano solo puede haber 3 cartas al final del turno. Se puede superar durante el turno. 
+Al final del turno en caso de que tenga más de tres se le forzará al usuario a descartar las cartas necesarias hasta llegar a 3.
+8- Cada turno se roban 2 cartas. 
+9- Características de los jugadores: 
+	1- Vida (50) 
+	2- Mano 
+10- Solo puedes usar un arma por turno. A no ser que haya una carta que indique lo contrario. 
+11- Cartas del mazo (80). 
+12- Cuando es tu turno puedes atacar pero no puedes defender. 
+El jugador contrario en tu turno si que puede defenderse. 
+Hay hechizos instantáneos. 
+13- 
+	Armas: Daño, Nombre, Efecto. 
+	Defensa: Defensa, Nombre, Efecto. 
+	Objetos: Efecto, Nombre, (uso?) // habrá objetos que puedes usar en tu turno solo y otros en ambos turnos. 
+	Hechizos: Igual que objetos. 
+14- Cuando la vida de alguno llega a 0 el jugador pierde. En el caso de que se empate se acaba la partida igualmente. 
+15- Cuando se termina el mazo, se barajea el de descarte menos la primera carta y lo sustituyes por el mazo de robar. 
+16- En el mazo de descarte siempre tiene que haber una carta. Excepto cuando empieza la partida. 
+17- Por ahora lo limitamos a solo barajeamos una vez. 
+18- Limite de tiempo para el jugador para usar las cartas. 30 segundos. 
+19- Se roba de arriba del mazo siempre. 
