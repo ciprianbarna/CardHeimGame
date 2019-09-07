@@ -4,6 +4,7 @@ public class Jugador {
     // Atributos
     private int vida;
     private String nombre;
+    private int estado; // El estado por defecto = 0, aturdido = 1, congelado = 2...etc
     private Mano mano;
     private Mazo mazo, descartes;
 
@@ -19,6 +20,7 @@ public class Jugador {
         this.nombre = nombre;
         this.mazo = mazo;
         descartes = new Mazo();
+        estado = 0;
     }
 
     // Métodos get
@@ -27,6 +29,7 @@ public class Jugador {
     public Mano getMano(){return mano;}
     public Mazo getMazo(){return mazo;}
     public Mazo getDescartes(){return descartes;}
+    public int getEstado(){return estado;}
 
     // Métodos set
     public void setVida(int vida){this.vida=vida;}
@@ -34,4 +37,5 @@ public class Jugador {
     public void setMano(Mano mano){this.mano = mano;}
     public void setMazo(Mazo mazo){this.mazo = mazo;}
     public void setDescartes(Mazo descartes){this.descartes = descartes;}
+    public void setEstado(int estado){this.estado = estado;}
 }
