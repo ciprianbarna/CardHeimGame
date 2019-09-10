@@ -23,6 +23,36 @@ public class Jugador {
         estado = 0;
     }
 
+    // Métodos relacionados con la mano
+
+    /**
+     * @param mazo -> mazo del que se roba la carta (vale tanto para el mazo como el de descartes)
+     */
+    public void robarCarta(Mazo mazo)
+    {
+        mano.añadirCarta(mazo.robarCarta());
+    }
+
+    /**
+     * @param carta -> carta a utilizar
+     */
+    public void usarCarta(Carta carta)
+    {
+        descartes.meterCarta(mano.usarCarta(carta));
+    }
+
+
+    // Métodos relacionados con el combate
+
+    /**
+     * @param daño -> daño que recibe el usuario
+     */
+    public void recibirDaño(int daño)
+    {
+        vida -= daño;
+    }
+
+
     // Métodos get
     public int getVida(){return vida;}
     public String getNombre(){return nombre;}

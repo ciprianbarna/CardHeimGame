@@ -15,6 +15,13 @@ public class Arma extends Carta {
         super(nombre, efecto);
         this.danio = danio;
     }
+
+    // Constructor vacio
+    public Arma()
+    {
+        super(" "," ");
+    }
+
     // Métodos get
     public int getDanio(){return danio;}
     // Métodos set
