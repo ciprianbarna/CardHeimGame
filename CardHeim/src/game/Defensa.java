@@ -17,9 +17,9 @@ public class Defensa extends Carta {
         this.armadura = armadura;
     }
 
-    // Métodos get
+    /* Métodos get  */
     public int getArmadura(){return armadura;}
 
-    // Métodos set
+    /* Métodos set  */
     public void setArmadura(int armadura){ this.armadura = armadura;}
 }

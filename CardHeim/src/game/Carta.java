@@ -15,11 +15,11 @@ public abstract class Carta {
         this.efecto = efecto;
     }
 
-    // Métodos get
+    /* Métodos get  */
     public String getName(){ return name;}
     public String getEfecto(){return efecto;}
 
-    // Métodos set
+    /* Métodos set  */
     public void setName(String name){ this.name = name; }
     public void setEfecto(String efecto){ this.efecto = efecto;}
 

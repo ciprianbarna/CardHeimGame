@@ -16,14 +16,14 @@ public class Arma extends Carta {
         this.danio = danio;
     }
 
-    // Constructor vacio
+    /* Constructor vacio    */
     public Arma()
     {
         super(" "," ");
     }
 
-    // Métodos get
+    /* Métodos get  */
     public int getDanio(){return danio;}
-    // Métodos set
+    /* Métodos set  */
     public void setDaño(int danio){this.danio = danio;}
 }
